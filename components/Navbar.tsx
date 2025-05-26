@@ -3,7 +3,7 @@ import { DefenzaLogo } from './icons/Logo';
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="bg-black/80 backdrop-blur-md sticky top-0 z-50 shadow-lg shadow-brand-gold/10 animate-fade-in-up">
+    <nav className="bg-black/80 backdrop-blur-md sticky top-0 z-50 shadow-lg shadow-brand-gold/10">
       <div className="container mx-auto px-6 py-3 flex justify-between items-center">
         <a href="#" className="flex items-center space-x-3 text-brand-gold hover:opacity-90 transition-opacity">
           <DefenzaLogo className="h-8 w-8 md:h-10 md:w-10" />

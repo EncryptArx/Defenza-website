@@ -12,7 +12,7 @@ const HeroSection: React.FC = () => {
         <div className="relative z-10 animate-fade-in-up">
           <DefenzaLogo className="w-24 h-24 md:w-32 md:h-32 mx-auto mb-6 opacity-80" />
           <h1 className="text-4xl md:text-6xl font-display font-bold mb-6 leading-tight">
-            Defenza <br className="hidden md:block" />
+            Defenza <br />
             <span className="text-brand-gold">Your AI-Powered Digital Safety Companion</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-300 mb-10 max-w-3xl mx-auto">

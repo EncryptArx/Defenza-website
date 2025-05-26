@@ -36,11 +36,20 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/index.css">
   <style>
+    html, body {
+      height: 100%; /* Ensure html and body take full height */
+      overflow-y: auto; /* Explicitly set body as a scroll container if content overflows */
+    }
     body {
-      font-family: 'Montserrat', sans-serif; /* Default body font */
+      font-family: 'Montserrat', sans-serif;
       background-color: #000000;
       color: #ffffff;
+      overflow-x: clip;
+    }
+    #root {
+      height: 100%; /* Ensure root div takes full height */
     }
   </style>
 <script type="importmap">
@@ -57,5 +66,4 @@
   <div id="root"></div>
   <script type="module" src="/index.tsx"></script>
 </body>
-</html><link rel="stylesheet" href="index.css">
-<script src="index.tsx" type="module"></script>
+</html>
