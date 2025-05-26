@@ -4,17 +4,17 @@ import { UserCircleIcon, UserGroupIcon, BuildingStorefrontIcon } from './icons/F
 
 const useCases = [
   {
-    icon: <UserCircleIcon className="w-16 h-16 text-brand-gold mb-4" />,
+    icon: <UserCircleIcon className="w-12 h-12 md:w-16 md:h-16 text-brand-gold mb-4" />,
     title: 'Non-Technical Internet Users',
     description: "Seniors, students, employees—anyone without deep IT knowledge. Defenza provides intuitive protection and clear guidance.",
   },
   {
-    icon: <UserGroupIcon className="w-16 h-16 text-brand-gold mb-4" />,
+    icon: <UserGroupIcon className="w-12 h-12 md:w-16 md:h-16 text-brand-gold mb-4" />,
     title: 'Families & Parents',
     description: "Ensuring loved ones stay protected online with easy-to-use security features and educational insights.",
   },
   {
-    icon: <BuildingStorefrontIcon className="w-16 h-16 text-brand-gold mb-4" />,
+    icon: <BuildingStorefrontIcon className="w-12 h-12 md:w-16 md:h-16 text-brand-gold mb-4" />,
     title: 'Small Businesses & Educators',
     description: "Affordable, easy-to-use cybersecurity tool without enterprise complexity, helping safeguard sensitive data.",
   },

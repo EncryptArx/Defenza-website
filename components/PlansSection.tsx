@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { SectionWrapper } from './common/SectionWrapper';
 import { LockClosedIcon } from './icons/FeatureIcons';
@@ -11,9 +10,9 @@ const PlansSection: React.FC = () => {
       subtitle="Tailored protection plans are being crafted. Be the first to know."
       className="bg-gradient-to-b from-black via-brand-red/10 to-black"
     >
-      <div className="text-center max-w-2xl mx-auto bg-brand-dark p-10 rounded-xl border border-brand-gold/50 shadow-xl shadow-brand-gold/20 animate-fade-in-up" style={{animationDelay: '0.8s'}}>
-        <LockClosedIcon className="w-20 h-20 text-brand-gold mx-auto mb-6 opacity-70"/>
-        <h3 className="text-3xl font-display font-bold text-brand-gold mb-4">Unlock Premium Tiers</h3>
+      <div className="text-center max-w-2xl mx-auto bg-brand-dark p-6 md:p-10 rounded-xl border border-brand-gold/50 shadow-xl shadow-brand-gold/20 animate-fade-in-up" style={{animationDelay: '0.8s'}}>
+        <LockClosedIcon className="w-16 h-16 md:w-20 md:h-20 text-brand-gold mx-auto mb-6 opacity-70"/>
+        <h3 className="text-2xl md:text-3xl font-display font-bold text-brand-gold mb-4">Unlock Premium Tiers</h3>
         <p className="text-lg text-gray-300 mb-6">
           Our full range of protection tiers will be unveiled soon. Beta participants will receive special early access and introductory offers.
         </p>

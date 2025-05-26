@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { SectionWrapper } from './common/SectionWrapper';
 import { FeatureCard } from './common/FeatureCard';
@@ -6,22 +5,22 @@ import { BrainCircuitIcon, DocumentArrowUpIcon, ShieldCheckIcon, EyeIcon } from 
 
 const features = [
   {
-    icon: <BrainCircuitIcon className="w-12 h-12 mb-4 text-brand-gold" />,
+    icon: <BrainCircuitIcon className="w-10 h-10 sm:w-12 sm:h-12 mb-4 text-brand-gold" />,
     title: 'Chat-Based Scam Guidance',
     description: 'Instant AI chat coach that explains red flags, walks users through suspicious messages, and offers actionable advice in natural language.',
   },
   {
-    icon: <DocumentArrowUpIcon className="w-12 h-12 mb-4 text-brand-gold" />,
+    icon: <DocumentArrowUpIcon className="w-10 h-10 sm:w-12 sm:h-12 mb-4 text-brand-gold" />,
     title: 'File Threat Scanner',
     description: 'Upload any file (documents, executables, media) for instant malware analysis—preventing harmful downloads or shares.',
   },
   {
-    icon: <ShieldCheckIcon className="w-12 h-12 mb-4 text-brand-gold" />,
+    icon: <ShieldCheckIcon className="w-10 h-10 sm:w-12 sm:h-12 mb-4 text-brand-gold" />,
     title: 'Real-Time Web Threat Detection',
     description: 'Monitors browsing activity, automatically blocks malicious links or injected content, and alerts users before they interact with risky sites.',
   },
   {
-    icon: <EyeIcon className="w-12 h-12 mb-4 text-brand-gold" />,
+    icon: <EyeIcon className="w-10 h-10 sm:w-12 sm:h-12 mb-4 text-brand-gold" />,
     title: '(Coming Soon) Privacy Policy Analyzer',
     description: 'Automatically reviews newly installed app permissions and privacy terms, summarizes risks, and advises on data-sharing safety.',
   },
